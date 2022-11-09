@@ -1,0 +1,349 @@
+{
+	"info": {
+		"_postman_id": "79cda7f4-01ed-4f1f-ae9c-06aea4fca0a4",
+		"name": "Proyecto_Internship_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19231923"
+	},
+	"item": [
+		{
+			"name": "localhost:7778/api/approveRequest/631a24983fd2c0b55ca496db",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2MzBmYzkzOGMzZjlhNWRlNmUyNWZhZWMiLCJ1c3VhcmlvIjoiQURNSU4iLCJyb2wiOiJBZG1pbiIsImlhdCI6MTY2MjQ5NzI5NCwiZXhwIjoxNjYyOTI5Mjk0fQ.E4H-aOUoY-2oLYSCHCFcjoX8FcIYtUcENevrluPmgbo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "localhost:7778/api/approveRequest/631a24983fd2c0b55ca496db",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"approveRequest",
+						"631a24983fd2c0b55ca496db"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7778/api/denyRequest/6317b4af1d79cf36d813fc3f",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2MzBmYzkzOGMzZjlhNWRlNmUyNWZhZWMiLCJ1c3VhcmlvIjoiQURNSU4iLCJyb2wiOiJBZG1pbiIsImlhdCI6MTY2MjQ3OTg1MSwiZXhwIjoxNjYyOTExODUxfQ.jzQlxRcDLmnyWClJ5y65RmjdToYE1nAAkI8IgGx-6V0",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:7778/api/denyRequest/6317b4af1d79cf36d813fc3f",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"denyRequest",
+						"6317b4af1d79cf36d813fc3f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7778/api/oldRequester/630fc4c06b4bbf8bea72ddf6",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2MzBmYzkzOGMzZjlhNWRlNmUyNWZhZWMiLCJ1c3VhcmlvIjoiQURNSU4iLCJyb2wiOiJBZG1pbiIsImlhdCI6MTY2MjU4MjM3NywiZXhwIjoxNjYyOTI3OTc3fQ.TWBjcheFF2lJHGdijewsWg_C1--Upj_oBWQw117x1Dw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:7778/api/oldRequester/630fc4c06b4bbf8bea72ddf6",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"oldRequester",
+						"630fc4c06b4bbf8bea72ddf6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7778/api/newAdmin/630fc4c06b4bbf8bea72ddf6",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2MzBmYzkzOGMzZjlhNWRlNmUyNWZhZWMiLCJ1c3VhcmlvIjoiQURNSU4iLCJyb2wiOiJBZG1pbiIsImlhdCI6MTY2MjU4MjM3NywiZXhwIjoxNjYyOTI3OTc3fQ.TWBjcheFF2lJHGdijewsWg_C1--Upj_oBWQw117x1Dw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "localhost:7778/api/newAdmin/630fc4c06b4bbf8bea72ddf6",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"newAdmin",
+						"630fc4c06b4bbf8bea72ddf6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7778/api/uploadDataBucket",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2MzEyNzk5YzA0NmIzN2I5NGYyNzFlNmYiLCJ1c3VhcmlvIjoiT0FTIiwicm9sIjoiUmVxdWVzdGVyIiwiaWF0IjoxNjYyNjUzMzM0LCJleHAiOjE2NjI5MTI1MzR9.Vc4ggxNNGFyV0GeLVYpH5HZU1uUTQNFVeYHd9wcBU-4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/omars/OneDrive/Imágenes/extras/COD MW3.jpg"
+						},
+						{
+							"key": "descrip",
+							"value": "Test de upload in folder 2.4",
+							"type": "text"
+						},
+						{
+							"key": "folder",
+							"value": "five/",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:7778/api/uploadDataBucket",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"uploadDataBucket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7778/api/addFolder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "prueba3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:7778/api/addFolder",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"addFolder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7778/api/registro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Omar.png",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "Salazar .jpg",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "OAS@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "usuario",
+							"value": "OAS",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:7778/api/registro",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"registro"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7778/api/listFoldersBucket",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "localhost:7778/api/listFoldersBucket",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"listFoldersBucket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7778/api/listDataBucket",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "bucket",
+							"value": "internship-project-21",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:7778/api/listDataBucket",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"listDataBucket"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:7778/api/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "usuario",
+							"value": "OA",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						},
+						{
+							"key": "Token",
+							"value": "true",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:7778/api/login",
+					"host": [
+						"localhost"
+					],
+					"port": "7778",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
